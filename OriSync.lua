@@ -103,7 +103,7 @@ local player = {} do
 
     -- @function 'player:set_prop'
     function player:set_prop(propname, value, array_index)
-        if getmetatable(array_index) then
+        if getmetatable(array_index) == "player" then
             array_index = array_index[1]
         end
 
