@@ -50,7 +50,7 @@ local animationlayer_t = ffi_typeof([[
 ]])
 
 -- Initialize virtual functions
-local native_GetClientEntity = vtable_bind("clientity.dll", "VClientEntityList003", 3, "void*(__thiscall*)(void*, int)")
+local native_GetClientEntity = vtable_bind("client.dll", "VClientEntityList003", 3, "void*(__thiscall*)(void*, int)")
 
 -- @class 'player'
 local player = {} do
