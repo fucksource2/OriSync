@@ -1,15 +1,15 @@
 /*
-    OriSync v2 for GameSense (Counter-Strike: Global Offensive), by Ori (https://gamesense.pub/forums/profile.php?id=12351)
+    -- OriSync v2 for GameSense (Counter-Strike: Global Offensive), by Ori (https://gamesense.pub/forums/profile.php?id=12351)
     
-    TODO:
-    - Finish the implemention of the player class
-    - Implement the rage_bot class
-    - Implement the anti_aim class
-    - Implement the render class
-    - Handle callbacks
-    - Implement the menu and config classes
+    -- TODO:
+    -- Finish the implemention of the player class
+    -- Implement the rage_bot class
+    -- Implement the anti_aim class
+    -- Implement the render class
+    -- Handle callbacks
+    -- Implement the menu and config classes
 
-    Known bugs:
+    -- Known bugs:
 */
 
 -- Cache frequently used _G[*], string.* & table.* functions for performance
